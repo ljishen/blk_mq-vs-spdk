@@ -1,0 +1,33 @@
+Starting DPDK 17.11.0 initialization...
+[ DPDK EAL parameters: perf -c 0x3f -m 1024 --file-prefix=spdk_pid12689 ]
+EAL: Probing VFIO support...
+Initializing NVMe Controllers
+EAL: PCI device 0000:07:00.0 on NUMA socket 0
+EAL:   probe driver: 1c5c:2204 spdk_nvme
+Attaching to NVMe Controller at 0000:07:00.0 [1c5c:2204]
+Attached to NVMe Controller at 0000:07:00.0 [1c5c:2204]
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 5
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 4
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 3
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 2
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 1
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 0
+Initialization complete. Launching workers.
+Starting thread on core 5
+Starting thread on core 4
+Starting thread on core 3
+Starting thread on core 2
+Starting thread on core 1
+Starting thread on core 0
+========================================================
+                                                                                            Latency(us)
+Device Information                                     :       IOPS       MB/s    Average        min        max
+SKhynix PE3110       (SN IS 0x0100        ) from core 5:   92669.00     361.99    1381.41      97.27    2084.44
+SKhynix PE3110       (SN IS 0x0100        ) from core 4:   89278.00     348.74    1433.85     150.74    2161.68
+SKhynix PE3110       (SN IS 0x0100        ) from core 3:   88341.40     345.08    1448.98     176.95    2252.24
+SKhynix PE3110       (SN IS 0x0100        ) from core 2:   88935.80     347.41    1439.26     196.75    2638.23
+SKhynix PE3110       (SN IS 0x0100        ) from core 1:   83839.80     327.50    1526.76     417.90    3157.43
+SKhynix PE3110       (SN IS 0x0100        ) from core 0:   81585.80     318.69    1568.91     375.32    4119.12
+========================================================
+Total                                                  :  524649.81    2049.41    1466.53     235.82    2735.52
+

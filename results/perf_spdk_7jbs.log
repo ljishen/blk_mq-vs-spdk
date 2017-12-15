@@ -1,0 +1,36 @@
+Starting DPDK 17.11.0 initialization...
+[ DPDK EAL parameters: perf -c 0x103f -m 1024 --file-prefix=spdk_pid12702 ]
+EAL: Probing VFIO support...
+Initializing NVMe Controllers
+EAL: PCI device 0000:07:00.0 on NUMA socket 0
+EAL:   probe driver: 1c5c:2204 spdk_nvme
+Attaching to NVMe Controller at 0000:07:00.0 [1c5c:2204]
+Attached to NVMe Controller at 0000:07:00.0 [1c5c:2204]
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 12
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 5
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 4
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 3
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 2
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 1
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 0
+Initialization complete. Launching workers.
+Starting thread on core 12
+Starting thread on core 5
+Starting thread on core 4
+Starting thread on core 3
+Starting thread on core 2
+Starting thread on core 1
+Starting thread on core 0
+========================================================
+                                                                                            Latency(us)
+Device Information                                     :       IOPS       MB/s    Average        min        max
+SKhynix PE3110       (SN IS 0x0100        ) from core 12:   88413.60     345.37    1447.91      96.53    2336.95
+SKhynix PE3110       (SN IS 0x0100        ) from core 5:   84788.40     331.20    1509.80     148.52    2924.75
+SKhynix PE3110       (SN IS 0x0100        ) from core 4:   83540.80     326.33    1532.32     183.79    2611.04
+SKhynix PE3110       (SN IS 0x0100        ) from core 3:   81843.60     319.70    1564.02     198.13    2848.53
+SKhynix PE3110       (SN IS 0x0100        ) from core 2:   82944.60     324.00    1543.22     255.82    3378.59
+SKhynix PE3110       (SN IS 0x0100        ) from core 1:   55369.40     216.29    2311.81     364.63    4319.12
+SKhynix PE3110       (SN IS 0x0100        ) from core 0:   50340.00     196.64    2542.72     113.39    4274.43
+========================================================
+Total                                                  :  527240.38    2059.53    1778.83     194.40    3241.91
+

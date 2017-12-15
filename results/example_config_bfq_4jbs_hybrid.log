@@ -1,0 +1,32 @@
+test: (g=0): rw=read, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=128
+...
+fio-2.21
+Starting 4 threads
+
+test: (groupid=0, jobs=4): err= 0: pid=8647: Thu Dec 14 15:56:43 2017
+   read: IOPS=123k, BW=481MiB/s (504MB/s)(2405MiB/5002msec)
+    slat (usec): min=1, max=3989, avg=15.41, stdev=30.15
+    clat (usec): min=324, max=360636, avg=4139.95, stdev=11359.45
+     lat (usec): min=347, max=360639, avg=4155.63, stdev=11358.38
+    clat percentiles (usec):
+     |  1.00th=[  604],  5.00th=[  988], 10.00th=[ 1192], 20.00th=[ 1272],
+     | 30.00th=[ 1304], 40.00th=[ 1608], 50.00th=[ 2992], 60.00th=[ 3120],
+     | 70.00th=[ 3344], 80.00th=[ 3568], 90.00th=[ 5472], 95.00th=[ 9152],
+     | 99.00th=[74240], 99.50th=[79360], 99.90th=[97792], 99.95th=[136192],
+     | 99.99th=[321536]
+   bw (  KiB/s): min= 6144, max=265032, per=0.02%, avg=121656.21, stdev=84545.66
+    lat (usec) : 500=0.24%, 750=1.87%, 1000=3.93%
+    lat (msec) : 2=39.98%, 4=40.40%, 10=10.28%, 20=1.50%, 50=0.36%
+    lat (msec) : 100=1.35%, 250=0.03%, 500=0.04%
+  cpu          : usr=5.89%, sys=48.27%, ctx=821, majf=0, minf=516
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwt: total=615792,0,0, short=0,0,0, dropped=0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=128
+
+Run status group 0 (all jobs):
+   READ: bw=481MiB/s (504MB/s), 481MiB/s-481MiB/s (504MB/s-504MB/s), io=2405MiB (2522MB), run=5002-5002msec
+
+Disk stats (read/write):
+  nvme0n1: ios=545853/0, merge=54110/0, ticks=78076/0, in_queue=77808, util=98.06%

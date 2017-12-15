@@ -1,0 +1,71 @@
+Linux 4.13.16-041316-generic (pl1) 	12/14/2017 	_x86_64_	(24 CPU)
+
+07:44:34 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:44:35 PM 64045      1600    0.98    0.00    0.00    0.98    21  ceph-mon
+07:44:35 PM 64045      1629    0.98    0.00    0.00    0.98    21  ceph-mgr
+07:44:35 PM     0      2106    0.98    0.00    0.00    0.98    23  containerd
+07:44:35 PM  1001     12632    0.00    0.98    0.00    0.98     9  pidstat
+
+07:44:35 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:44:36 PM     0       127    0.00    1.00    0.00    1.00    19  kworker/19:0
+07:44:36 PM     0       224    0.00    1.00    0.00    1.00     0  kworker/0:1
+07:44:36 PM  1001      2680    1.00    1.00    0.00    2.00    23  bash
+07:44:36 PM  1001     12342    0.00    1.00    0.00    1.00    22  sshd
+07:44:36 PM  1001     12632    1.00    0.00    0.00    1.00     9  pidstat
+07:44:36 PM     0     12636    0.00   35.00    0.00   35.00     8  perf
+
+07:44:36 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:44:37 PM     0       749    0.00    1.00    0.00    1.00    22  kworker/22:2
+07:44:37 PM     0      1687    3.00    3.00    0.00    6.00    10  dockerd
+07:44:37 PM  1001      2678    0.00    1.00    0.00    1.00    11  tmux
+07:44:37 PM  1001     12632    0.00    2.00    0.00    2.00     9  pidstat
+07:44:37 PM     0     12636   54.00   35.00    0.00   89.00     0  perf
+
+07:44:37 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:44:38 PM     0      1932    0.00    1.00    0.00    1.00     7  irqbalance
+07:44:38 PM  1001      2678    1.00    0.00    0.00    1.00    11  tmux
+07:44:38 PM  1001     12632    0.00    1.00    0.00    1.00     9  pidstat
+07:44:38 PM     0     12636  100.00    1.00    0.00  101.00     0  perf
+
+07:44:38 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:44:39 PM     0       176    0.00    1.00    0.00    1.00    11  kworker/11:1
+07:44:39 PM     0      3004    0.00    1.00    0.00    1.00     9  kworker/9:1
+07:44:39 PM  1001     12632    1.00    1.00    0.00    2.00     9  pidstat
+07:44:39 PM     0     12636  100.00    0.00    0.00  100.00     0  perf
+
+07:44:39 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:44:40 PM     0      1264    0.00    1.00    0.00    1.00    23  accounts-daemon
+07:44:40 PM  1001     12630    0.00    1.00    0.00    1.00    19  mpstat
+07:44:40 PM  1001     12632    1.00    0.00    0.00    1.00     9  pidstat
+07:44:40 PM     0     12636  100.00    0.00    0.00  100.00     0  perf
+
+07:44:40 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:44:41 PM     0      1687    1.00    0.00    0.00    1.00    10  dockerd
+07:44:41 PM  1001     12632    1.00    1.00    0.00    2.00     9  pidstat
+07:44:41 PM     0     12636  100.00    0.00    0.00  100.00     0  perf
+
+07:44:41 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:44:42 PM  1001      2678    1.00    0.00    0.00    1.00    11  tmux
+07:44:42 PM     0      3257    0.00    1.00    0.00    1.00    18  kworker/18:1
+07:44:42 PM  1001     12632    1.00    0.00    0.00    1.00     9  pidstat
+
+07:44:42 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:44:43 PM     0       224    0.00    1.00    0.00    1.00     0  kworker/0:1
+07:44:43 PM     0      2890    0.00    1.00    0.00    1.00     8  kworker/8:0
+07:44:43 PM  1001     12632    0.00    1.00    0.00    1.00     9  pidstat
+
+07:44:43 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:44:44 PM  1001     12632    0.00    2.00    0.00    2.00     9  pidstat
+
+07:44:44 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:44:45 PM     0       127    0.00    1.00    0.00    1.00    19  kworker/19:0
+07:44:45 PM     0       136    1.00    0.00    0.00    1.00    21  watchdog/21
+07:44:45 PM     0       176    0.00    1.00    0.00    1.00    11  kworker/11:1
+07:44:45 PM 64045      1600    1.00    0.00    0.00    1.00    21  ceph-mon
+07:44:45 PM 64045      1629    1.00    0.00    0.00    1.00    21  ceph-mgr
+07:44:45 PM  1001      2678    1.00    0.00    0.00    1.00    11  tmux
+07:44:45 PM  1001     12632    1.00    1.00    0.00    2.00     9  pidstat
+
+07:44:45 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:44:46 PM     0         9    0.00    1.00    0.00    1.00     0  rcu_sched
+07:44:46 PM  1001     12632    1.00    0.00    0.00    1.00     9  pidstat

@@ -1,0 +1,16 @@
+[global]
+ioengine=libaio
+thread=1
+group_reporting=1
+direct=1
+do_verify=0
+time_based=1
+ramp_time=0
+runtime=5
+iodepth=128
+rw=read
+bs=4k
+filename=/dev/nvme0n1
+
+[test]
+numjobs=1

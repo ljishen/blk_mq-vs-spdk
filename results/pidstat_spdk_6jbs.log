@@ -1,0 +1,66 @@
+Linux 4.13.16-041316-generic (pl1) 	12/14/2017 	_x86_64_	(24 CPU)
+
+07:47:04 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:47:05 PM     0       224    0.00    0.99    0.00    0.99     0  kworker/0:1
+07:47:05 PM  1001     12685    0.99    0.00    0.00    0.99     8  pidstat
+
+07:47:05 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:47:06 PM     0       176    0.00    1.00    0.00    1.00    11  kworker/11:1
+07:47:06 PM     0       792    0.00    1.00    0.00    1.00    21  kworker/21:2
+07:47:06 PM  1001     12685    1.00    0.00    0.00    1.00     8  pidstat
+
+07:47:06 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:47:07 PM     0       547    1.00    0.00    0.00    1.00     6  systemd-journal
+07:47:07 PM   104      1318    1.00    0.00    0.00    1.00     6  rsyslogd
+07:47:07 PM  1001      2678    1.00    0.00    0.00    1.00    11  tmux
+07:47:07 PM  1001      2680    0.00    2.00    0.00    2.00    23  bash
+07:47:07 PM     0      8902    0.00    1.00    0.00    1.00     6  kworker/6:1
+07:47:07 PM  1001     12685    1.00    2.00    0.00    3.00     8  pidstat
+07:47:07 PM     0     12687    0.00    1.00    0.00    1.00    18  sudo
+07:47:07 PM     0     12689    9.00   70.00    0.00   79.00     0  perf
+
+07:47:07 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:47:08 PM     0        24    0.00    1.00    0.00    1.00     2  kworker/2:0
+07:47:08 PM 64045      1629    1.00    0.00    0.00    1.00    21  ceph-mgr
+07:47:08 PM     0     12269    0.00    1.00    0.00    1.00    21  kworker/u130:0
+07:47:08 PM  1001     12685    0.00    1.00    0.00    1.00     8  pidstat
+07:47:08 PM     0     12689  521.00    0.00    0.00  521.00     0  perf
+
+07:47:08 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:47:09 PM     0      2890    0.00    1.00    0.00    1.00     8  kworker/8:0
+07:47:09 PM  1001     12685    1.00    0.00    0.00    1.00     8  pidstat
+07:47:09 PM     0     12689  600.00    0.00    0.00  600.00     0  perf
+
+07:47:09 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:47:10 PM     0       127    0.00    1.00    0.00    1.00    19  kworker/19:0
+07:47:10 PM 64045      1600    1.00    0.00    0.00    1.00    21  ceph-mon
+07:47:10 PM  1001     12685    0.00    1.00    0.00    1.00     8  pidstat
+07:47:10 PM     0     12689  599.00    0.00    0.00  599.00     0  perf
+
+07:47:10 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:47:11 PM  1001      2678    1.00    0.00    0.00    1.00    11  tmux
+07:47:11 PM  1001     12685    1.00    1.00    0.00    2.00     8  pidstat
+07:47:11 PM     0     12689  600.00    0.00    0.00  600.00     0  perf
+
+07:47:11 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:47:12 PM     0       156    0.00    1.00    0.00    1.00     7  kworker/7:1
+07:47:12 PM     0      2890    0.00    1.00    0.00    1.00     8  kworker/8:0
+07:47:12 PM  1001     12685    1.00    0.00    0.00    1.00     8  pidstat
+07:47:12 PM     0     12689  600.00    0.00    0.00  600.00     0  perf
+
+07:47:12 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:47:13 PM     0       176    0.00    1.00    0.00    1.00    11  kworker/11:1
+07:47:13 PM     0       224    0.00    1.00    0.00    1.00     0  kworker/0:1
+07:47:13 PM     0      1687    1.00    0.00    0.00    1.00    20  dockerd
+07:47:13 PM  1001     12685    1.00    1.00    0.00    2.00     8  pidstat
+
+07:47:13 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:47:14 PM     0      1687    0.00    1.00    0.00    1.00    20  dockerd
+07:47:14 PM     0      2106    1.00    0.00    0.00    1.00    23  containerd
+07:47:14 PM  1001      2678    1.00    0.00    0.00    1.00    11  tmux
+07:47:14 PM     0      3257    0.00    1.00    0.00    1.00    18  kworker/18:1
+07:47:14 PM  1001     12685    0.00    1.00    0.00    1.00     8  pidstat
+
+07:47:14 PM   UID       PID    %usr %system  %guest    %CPU   CPU  Command
+07:47:15 PM     0      2890    0.00    0.99    0.00    0.99     8  kworker/8:0
+07:47:15 PM  1001     12685    0.00    0.99    0.00    0.99     8  pidstat

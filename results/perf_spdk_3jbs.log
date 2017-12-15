@@ -1,0 +1,24 @@
+Starting DPDK 17.11.0 initialization...
+[ DPDK EAL parameters: perf -c 0x7 -m 1024 --file-prefix=spdk_pid12656 ]
+EAL: Probing VFIO support...
+Initializing NVMe Controllers
+EAL: PCI device 0000:07:00.0 on NUMA socket 0
+EAL:   probe driver: 1c5c:2204 spdk_nvme
+Attaching to NVMe Controller at 0000:07:00.0 [1c5c:2204]
+Attached to NVMe Controller at 0000:07:00.0 [1c5c:2204]
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 2
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 1
+Associating SKhynix PE3110       (SN IS 0x0100        ) with lcore 0
+Initialization complete. Launching workers.
+Starting thread on core 2
+Starting thread on core 1
+Starting thread on core 0
+========================================================
+                                                                                            Latency(us)
+Device Information                                     :       IOPS       MB/s    Average        min        max
+SKhynix PE3110       (SN IS 0x0100        ) from core 2:  254240.20     993.13     503.46      63.41    1611.29
+SKhynix PE3110       (SN IS 0x0100        ) from core 1:  128647.60     502.53     994.98     149.37    2094.07
+SKhynix PE3110       (SN IS 0x0100        ) from core 0:  129560.20     506.09     987.96      90.59    1853.51
+========================================================
+Total                                                  :  512448.00    2001.75     828.80     101.12    1852.96
+
